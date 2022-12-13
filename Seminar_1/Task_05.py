@@ -11,4 +11,4 @@ y2 = float(input("Введите y2: "))
 x = x1 - x2
 y = y1 - y2
 lenght = (x**2 + y**2)**(0.5)
-print(round(lenght,5))
+print(round(lenght,10))
