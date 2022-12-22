@@ -26,3 +26,21 @@ for line in f:
     result *= numbers[int(line)]
 f.close()
 print(f'Произведение указанных элементов: {result}')
+
+# import random
+#
+# n = int(input())
+# list_num = [random.randint(-n,n) for i in range(n)]
+# print(list_num)
+
+# file = open("File.txt","r")
+# multi = 1
+# list_str = file.readlines()
+# print(list_str)
+# list_num = list(map(str.strip,list_str))
+# print(list_num)
+# list_num = list(map(int,list_num))
+# print(list_num)
+# for i in file:
+#     multi*=list_num[int(i)]
+# print(multi)
