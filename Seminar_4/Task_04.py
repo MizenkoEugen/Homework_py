@@ -24,5 +24,5 @@ else:
 
 print(str)
 file = open('file.txt', 'a')
-file.write(str)
+file.write(str+'\n')
 file.close()
